@@ -1,6 +1,6 @@
 import "./ImageLinkForm.css";
 
-function ImageLinkForm({ onInputChange, onButtonSubmit }) {
+function ImageLinkForm({ myState, onInputChange, onButtonSubmit }) {
   return (
     <div>
       <p className="center f3">
@@ -11,6 +11,7 @@ function ImageLinkForm({ onInputChange, onButtonSubmit }) {
           <input
             className="f4 pa2 w-70 center"
             type="text"
+            value={myState}
             onChange={onInputChange}
           />
           <button

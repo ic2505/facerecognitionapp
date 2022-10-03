@@ -16,3 +16,7 @@
   left: 0;
   z-index: -1;
 }
+
+.body img {
+  width: 40%;
+}

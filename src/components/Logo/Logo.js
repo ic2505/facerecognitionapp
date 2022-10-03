@@ -13,7 +13,7 @@ function Logo() {
         scale={1.02}
       >
         <div className="inner-element">
-          <div>Face</div>
+          <div>Image</div>
           <div>Recognition</div>
           <div>
             <img src={brain} alt={"brain logo"}></img>
